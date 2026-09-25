@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="el">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Calendrai: οργάνωση αναρτήσεων, ημερολόγιο και εγκρίσεις πελατών. Διαδραστικό portfolio demo στα ελληνικά.">
+  <title>Το πλάνο μου · Calendrai</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Μετάβαση στο περιεχόμενο</a>
+  <header class="site-header"><div class="header-inner">
+    <a href="#plan" class="brand" aria-label="Calendrai — αρχική"><img src="assets/favicon.svg" alt="" width="27" height="27">calendrai</a>
+    <nav aria-label="Κύρια πλοήγηση" id="nav"></nav>
+    <button class="avatar" id="demo-settings" aria-label="Ρυθμίσεις και ρόλος demo" title="Ρυθμίσεις demo">Μ</button>
+  </div></header>
+  <div id="storage-notice" class="notice" hidden role="alert"></div>
+  <div id="role-bar" class="role-bar"></div>
+  <main id="main" tabindex="-1"></main>
+  <footer class="site-footer"><span>Calendrai <span class="separator">·</span> Portfolio demo</span><div><span id="storage-label">Τοπική αποθήκευση</span><button class="text-button" data-action="settings">Σχετικά με το demo</button></div></footer>
+  <dialog id="dialog" aria-labelledby="dialog-title"></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="notice">Για να χρησιμοποιήσεις το Calendrai, ενεργοποίησε τη JavaScript στον browser σου.</p></noscript>
+</body>
+</html>
